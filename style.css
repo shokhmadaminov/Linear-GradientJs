@@ -1,0 +1,59 @@
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #ff5522, #1155ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER STYLES */
+.container {
+    width: 330px;
+    background: rgba(0, 0, 0, 0.568);
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+}
+.container:hover {
+    transform: scale(1.02);
+}
+.button-click {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* GRADIENT HEADING STYLES */
+.gradient-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    word-spacing: 7px;
+}
+.gradient-heading__span-two {
+    font-size: 1rem;
+}
+
+/* GRADIENT CODE STYLES */
+.gradient-codes {
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gradient-lines {
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 0.5rem;
+}
